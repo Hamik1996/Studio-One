@@ -1,0 +1,57 @@
+Title: Verifying of the search function and working as expected.
+
+Preconditions: The browser should be opened and navigated to http://zen.yandex.ru/
+
+Environment: 
+
+Steps:
+
+Step 1: Launch the web browser and navigate to Zen.yandex.ru.
+Expected Result: The website should load without any errors or delays, and the homepage should be displayed.
+
+Step 2: Locate the search bar on the top of the homepage.
+Expected Result: The search bar should be clearly visible and accessible on the top of the homepage.
+
+Step 3: Enter a search query in the search bar and click on the search button.
+Expected Result: The search function should work as expected, and relevant content related to the search query should be displayed on the search results page.
+
+Step 4: Verify that the search results are accurate and relevant to the search query.
+Expected Result: The search results should display content that is related to the search query, and the results should be accurate and relevant to the user's search.
+
+Step 5: Click on one of the search results to view the content.
+Expected Result: The content should load without any issues, and the user should be able to view the content as expected.
+
+
+Pass/Fail
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ZenSearchTest {
+
+    public static void main(String[] args) {
+        System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://zen.yandex.ru/");
+
+        // Find the search bar and enter a search query
+        WebElement searchBox = driver.findElement(By.name("text"));
+        searchBox.sendKeys("java programming");
+        searchBox.submit();
+
+        // Verify that search results are displayed and relevant to the search query
+        WebElement searchResults = driver.findElement(By.className("card-image"));
+        String resultText = searchResults.getText();
+        if(resultText.contains("Java Programming")) {
+            System.out.println("Search test passed");
+        } else {
+            System.out.println("Search test failed");
+        }
+
+        // Close the browser
+        driver.quit();
+    }
+}
