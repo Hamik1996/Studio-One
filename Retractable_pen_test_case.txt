@@ -1,0 +1,45 @@
+Test case: Retractable Pen
+
+Preconditions:
+
+The retractable pen should be a standard size pen with a retractable mechanism.
+The pen should contain ink and be ready to use.
+A piece of paper or notepad should be available for testing.
+
+Steps:
+
+Step 1: Verify that the pen is in the fully retracted position.
+Expected Result: The pen tip should be fully retracted inside the pen barrel.
+
+Step 2: Extend the pen by pressing the button or sliding the clip.
+Expected Result: The pen tip should extend smoothly and evenly, without any sticking or hesitation.
+
+Step 3: Verify that the pen tip stays extended when writing.
+Expected Result: The pen tip should stay extended while writing, without any unintentional retractions.
+
+Step 4: Write a line of text with the pen at a slight angle.
+Expected Result: The ink should flow smoothly and consistently, without skipping, blotting, or appearing faded.
+
+Step 5: Verify that the pen tip retracts fully when the button or clip is pressed.
+Expected Result: The pen tip should retract smoothly and fully inside the pen barrel.
+
+Step 6: Repeat steps 2-5 at least 10 times.
+Expected Result: The retractable mechanism should operate smoothly and without any issues, with the pen tip fully extending and retracting each time.
+
+Step 7: Leave the pen unused for 5 minutes.
+Expected Result: The ink should not dry out or clog the pen tip.
+
+Step 8: Extend the pen and write a line of text.
+Expected Result: The ink should flow smoothly and without skipping or blotting, even after being left unused for 5 minutes.
+
+Step 9: Repeat step 8 after leaving the pen unused for progressively longer intervals (e.g. 10 minutes, 30 minutes, 1 hour).
+Expected Result: The ink should continue to flow smoothly and without skipping or blotting, even after being left unused for longer intervals.
+
+Step 10: Repeat step 8 after one week of storage.
+Expected Result: The ink should flow smoothly and without skipping or blotting, even after being stored for one week.
+
+Step 11: Verify that the pen is durable and can withstand regular use.
+Expected Result: The pen should maintain its performance and quality over time, without any issues or irregularities.
+
+Step 12: Repeat steps 1-12 with additional pens from the same batch to ensure consistency.(if they are consist)
+Expected Result: All pens from the same batch should perform consistently, indicating that they are durable and reliable.
